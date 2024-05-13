@@ -1,3 +1,8 @@
+p,h1, h2, h3, ul, nav, button, li, ol {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   display: grid;
   justify-items: center;
@@ -16,6 +21,21 @@ button {
   margin-top: 20px;
 }
 
+.content {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
 ul {
   list-style-type: none;
+  display: grid;
+  grid-auto-flow: column;
+  align-content: center;
+  gap: 20px;
+}
+
+li {
+  color: rgb(245, 245, 243);
+  font-size: 1.5rem;
+  cursor: pointer;
 }
