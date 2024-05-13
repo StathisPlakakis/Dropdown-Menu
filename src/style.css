@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  justify-items: center;
+}
+
+button {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-image: url('./drop-down.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+  margin-top: 20px;
+}
