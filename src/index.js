@@ -1,8 +1,12 @@
 import './style.css';
 
 const button = document.querySelector('button');
-const content = document.querySelector('.content');
+const content = document.querySelector('.hidden');
 
 button.addEventListener('click', () => {
-  content.style.display = (content.style.display === 'none') ? 'block' : 'none';
+  if (content.classList.contains('visible')) {
+    content.classList.remove('visible');
+  } else {
+    content.classList.add('visible');
+  }
 });
